@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ürünler</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+        body {
+            background-color: #EEE;
+        }
+        
+        #kapsam {
+            width: 800px;
+            border: solid 1px #CCC;
+            min-height: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+        }
+        
+        #ust {
+            height: 90px;
+        }
+        
+        #logo {
+            width: 200px;
+            height: 90px;
+            float: left;
+        }
+        
+        #logo img {
+            width: 100px;
+            margin-top: 14px;
+            margin-left: 10px;
+        }
+        
+        #menu {
+            width: 600px;
+            height: 90px;
+            float: left;
+        }
+        
+        #icerik {
+            min-height: 300px;
+            padding: 3px;
+        }
+        
+        #slayt {}
+        
+        #slayt img {
+            width: 794px;
+            height: 270px;
+        }
+        
+        .slogan {
+            border: solid 2px black;
+            margin-top: 3px;
+            background-color: #B0E0E6;
+            padding: 5px;
+            text-align: center;
+            font-size: 22px;
+            font-family: Comic Sans MS;
+            border-radius: 5px;
+        }
+        
+        #kutular {
+            height: 400px;
+            margin-top: 10px;
+        }
+        
+        #solkutu {
+            width: 392px;
+            height: 400px;
+            float: left;
+            margin-right: 10px;
+        }
+        
+        #sagkutu {
+            width: 392px;
+            height: 400px;
+            float: left;
+        }
+        
+        #alt {
+            height: 60px;
+            background-color: #999;
+            line-height: 60px;
+            text-align: center;
+            font-size: 11px;
+        }
+        
+        .buyukikon {
+            text-align: center;
+            font-size: 70px;
+            color: #D91D52;
+        }
+        
+        .kutubaslik {
+            color: #D91D52;
+            text-align: center;
+        }
+        
+        .kutuicerik {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        
+        .ortala {
+            text-align: center;
+        }
+        
+        .adres p strong {
+            color: #D91D52;
+        }
+        
+        #menu ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            float: right;
+            margin-right: 3px;
+            margin-top: 25px;
+        }
+        
+        #menu ul li {
+            float: left;
+        }
+        
+        #menu ul li a {
+            text-decoration: none;
+            background-color: #005AAB;
+            color: white;
+            display: block;
+            height: 40px;
+            line-height: 40px;
+            padding-left: 7px;
+            padding-right: 7px;
+            margin-left: 7px;
+            font-family: Arial;
+        }
+        
+        #menu ul li a:hover {
+            background-color: #D91D52;
+        }
+        
+        #yonlendirme {
+            background-color: #EEE;
+            padding: 7px;
+            border: solid 1px #CCC;
+            font-size: 11px;
+            font-family: Arial;
+        }
+        
+        #yonlendirme a {
+            text-decoration: none;
+            color: #666;
+        }
+        
+        #yonlendirme a:hover {
+            text-decoration: underline;
+            color: #333;
+        }
+        
+        #urundis {
+            padding-top: 6px;
+            padding-bottom: 6px;
+        }
+        
+        .urun {
+            width: 183px;
+            padding: 3px;
+            border: solid 1px #CCC;
+            margin-left: 6px;
+            margin-bottom: 6px;
+            float: left;
+            height: 260px;
+        }
+        
+        .urun:hover {
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+        }
+        
+        .temizle {
+            clear: both;
+        }
+        
+        .urunresim {
+            width: 183px;
+            height: 201px;
+        }
+        
+        .urunresim img {
+            width: 183px;
+            height: 201px;
+        }
+        
+        .urunadi {
+            height: 25px;
+            padding-top: 4px;
+            text-align: center;
+            color: #D91D52;
+        }
+        
+        .urunfiyatsepet {
+            height: 26px;
+            padding-top: 4px;
+        }
+        
+        .fiyat {
+            line-height: 26px;
+            font-weight: bold;
+        }
+        
+        .sepet {
+            float: right;
+            border: none;
+            background-color: #D91D52;
+            color: white;
+            font-size: 14px;
+            text-decoration: none;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="kapsam">
+        <div id="ust">
+            <a href="index.html" id="logo">
+                <img src="logo.png">
+            </a>
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html"><i class="fa fa-home"></i>Anasayfa</a></li>
+                    <li><a href="hakkimizda.html"><i class="fa fa-info"></i> Hakkımızda</a></li>
+                    <li><a href="urunler.html"><i class="fa fa-tags"></i> Ürünler</a></li>
+                    <li><a href="iletisim.html"><i class="fa fa-envelope-o"></i> İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="icerik">
+            <!--İçerik başlangıç-->
+            <div id="yonlendirme">
+                <a href="index.html"><i class="fa fa-home"></i>Anasayfa</a>
+                <a href="urunler.html"><i class="fa fa-tags"></i> Ürünler</a>
+            </div>
+            <h1>Ürünler</h1>
+            <div id="urundis">
+                <!--urun başla-->
+                <div class="urun">
+                    <div class="urunresim">
+                        <img src="u1.jpg">
+
+                    </div>
+                    <div class="urunadi" id="u1">
+                        Pembe Gül Buketi
+
+                    </div>
+                    <div class="urunfiyatsepet">
+                        <span class="fiyat">
+							89,50
+							<i class="fa fa-try"></i>
+						</span>
+                        <a href="javascript:void(0)" class="sepet" onclick="Ekle(1)">
+                            <i class="fa fa-shopping-bag"></i> EKLE
+                        </a>
+                    </div>
+                </div>
+
+                <!--urun bitiş-->
+
+
+
+                <!--urun başla-->
+                <div class="urun">
+                    <div class="urunresim">
+                        <img src="u2.jpg">
+
+                    </div>
+                    <div class="urunadi" id="u2">
+                        Papatya Buketi
+
+                    </div>
+                    <div class="urunfiyatsepet">
+                        <span class="fiyat">
+							69,50
+							<i class="fa fa-try"></i>
+						</span>
+                        <a href="javascript:void(0)" class="sepet" onclick="Ekle(2)">
+                            <i class="fa fa-shopping-bag"></i> EKLE
+                        </a>
+                    </div>
+                </div>
+
+                <!--urun bitiş-->
+
+                <!--urun başla-->
+                <div class="urun">
+                    <div class="urunresim">
+                        <img src="u3.jpg">
+
+                    </div>
+                    <div class="urunadi" id="u3">
+                        Orkide Aranjmanı
+
+                    </div>
+                    <div class="urunfiyatsepet">
+                        <span class="fiyat">
+							129,50
+							<i class="fa fa-try"></i>
+						</span>
+                        <a href="javascript:void(0)" class="sepet" onclick="Ekle(3)">
+                            <i class="fa fa-shopping-bag"></i> EKLE
+                        </a>
+                    </div>
+                </div>
+
+                <!--urun bitiş-->
+
+
+                <!--urun başla-->
+                <div class="urun">
+                    <div class="urunresim">
+                        <img src="u4.jpg">
+
+                    </div>
+                    <div class="urunadi" id="u4">
+                        Odun Style Çiçek
+
+                    </div>
+                    <div class="urunfiyatsepet">
+                        <span class="fiyat">
+							199,50
+							<i class="fa fa-try"></i>
+						</span>
+                        <a href="javascript:void(0)" class="sepet" onclick="Ekle(4)">
+                            <i class="fa fa-shopping-bag"></i> EKLE
+                        </a>
+                    </div>
+                </div>
+
+                <!--urun bitiş-->
+
+                <!--urun başla-->
+                <div class="urun">
+                    <div class="urunresim">
+                        <img src="u5.jpg">
+
+                    </div>
+                    <div class="urunadi" id="u5">
+                        Lilyum Çiçek Aranjmanı
+
+                    </div>
+                    <div class="urunfiyatsepet">
+                        <span class="fiyat">
+							249,50
+							<i class="fa fa-try"></i>
+						</span>
+                        <a href="javascript:void(0)" class="sepet" onclick="Ekle(5)">
+                            <i class="fa fa-shopping-bag"></i> EKLE
+                        </a>
+                    </div>
+                </div>
+
+                <!--urun bitiş-->
+
+
+
+
+
+
+                <div class="temizle"></div>
+            </div>
+            <!--İçerik bitiş-->
+
+        </div>
+        <div id="alt">
+            Web tasarım 2022 - Tüm hakları saklıdır.
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript">
+        function Ekle(id) {
+            var isim = document.getElementById("u" + id).innerHTML;
+            alert(isim + " SEPETE EKLENDİ.");
+
+        }
+    </script>
+</body>
+
+</html>
